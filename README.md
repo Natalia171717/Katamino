@@ -16,3 +16,6 @@ swipl -s katamino.pl
 ```
 Now you can try any predicate you want, both from katamino and from piezas.
 The predicate llenarTablero is the one that solves the Katamino (showing all possible solutions for a given number of pieces). The implementation without pruning is inefficient, so it is recommended to use it with podaMod5.
+```bash
+llenarTablero(podaMod5, 4, T), mostrar(T).
+```
